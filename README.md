@@ -17,3 +17,28 @@
 - `services` 服务层，业务逻辑代码在这一层编写，通过不同的接口获取的数据转换成统一的前端所需要的数据
 - `app.js` 主项目入口文件
 - `package.json` 项目配置文件
+
+
+
+#### 项目环境
+
+##### 本地环境
+
+​	Node.js + MySQL
+
+##### 创建数据库
+
+​	数据库文件在：db -> mysdb.sql
+
+​    创建数据库mydb，可通过新建查询执行mysdb.sql下的SQL语句建立数据库，数据库表
+
+​	数据库连接名：root    密码： 123456
+
+​			可在test -> configs -> config.js 修改
+
+##### 启动项目
+
+​	安装依赖： npm install
+
+​	启动项目 ：node app.js
+
