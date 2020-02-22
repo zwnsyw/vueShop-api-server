@@ -22,23 +22,23 @@
 
 #### 项目环境
 
-##### 本地环境
+##### 	本地环境
 
-​	Node.js + MySQL
+​		Node.js + MySQL
 
-##### 创建数据库
+##### 	创建数据库
 
-​	数据库文件在：db -> mysdb.sql
+​		数据库文件在：db -> mysdb.sql
 
-​    创建数据库mydb，可通过新建查询执行mysdb.sql下的SQL语句建立数据库，数据库表
+​    	创建数据库mydb，可通过新建查询执行mysdb.sql下的SQL语句建立数据库，数据库表
 
-​	数据库连接名：root    密码： 123456
+​		数据库连接名：root    密码： 123456
 
 ​			可在test -> configs -> config.js 修改
 
-##### 启动项目
+##### 	启动项目
 
-​	安装依赖： npm install
+​		安装依赖： npm install
 
-​	启动项目 ：node app.js
+​		启动项目 ：node app.js
 
